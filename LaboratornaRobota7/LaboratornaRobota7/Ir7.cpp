@@ -44,6 +44,11 @@ int main() {
 		a1 = int(fA(a, b, c));
 		cout << "\tДобуток розрядiв значення виразу A = " << Task2(a1) << endl;
 	}
+	
+	//Пошук суми A i B
+	double C;
+	C = fA(a, b, c) + fB(d, e);
+	cout << "A + B = " << C <<  endl;
 
 	system("pause");
 }
